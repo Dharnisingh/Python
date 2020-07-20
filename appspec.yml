@@ -6,12 +6,9 @@ files:
     destination: /home/
 hooks:
   BeforeInstall:
-    - echo "Hello\n"
   AfterInstall:
-    - echo "Let do it\n"
   ApplicationStart:
     - location: /home/myscript.sh
       timeout: 300
       runas: root
   ApplicationStop:
-    - echo "I am done\n"
