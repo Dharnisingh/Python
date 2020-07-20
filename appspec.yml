@@ -2,13 +2,10 @@
 version: 0.0
 os: linux
 files:
-  - source: /
+  - source: /myscript.sh
     destination: /home/
 hooks:
-  BeforeInstall:
-  AfterInstall:
   ApplicationStart:
     - location: /home/myscript.sh
       timeout: 300
       runas: root
-  ApplicationStop:
