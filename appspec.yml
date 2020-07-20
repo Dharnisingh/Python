@@ -6,6 +6,6 @@ files:
     destination: /home/
 hooks:
   ApplicationStart:
-    - location: /home/myscript.sh
+    - location: /myscript.sh
       timeout: 300
       runas: root
