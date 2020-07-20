@@ -2,10 +2,10 @@
 version: 0.0
 os: linux
 files:
-  - source: /myscript.sh
+  - source: /
     destination: /home/
 hooks:
   ApplicationStart:
-    - location: /myscript.sh
+    - location: /home/myscript.sh
       timeout: 300
       runas: root

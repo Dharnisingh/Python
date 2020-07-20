@@ -1,2 +1,2 @@
 #! /bin/bash
-python3 test.py 
+sudo python3 test.py 
