@@ -1,6 +1,6 @@
   PID TTY          TIME CMD
-  866 tty1     00:00:00 gnome-session-b
- 6369 pts/0    00:00:01 bash
- 9105 pts/0    00:00:00 python3
- 9108 pts/0    00:00:00 sh
- 9109 pts/0    00:00:00 ps
+  846 tty1     00:00:00 gnome-session-b
+ 2129 pts/0    00:00:00 bash
+ 2341 pts/0    00:00:00 python3
+ 2344 pts/0    00:00:00 sh
+ 2345 pts/0    00:00:00 ps

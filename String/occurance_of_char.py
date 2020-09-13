@@ -2,7 +2,9 @@
 
 text = "Find occurence of each character in this string"
 
-text = text.replace(' ','')
+#text = text.replace(' ','')
+# OR
+text = "".join(text)
 d = dict()
 
 for c in text:

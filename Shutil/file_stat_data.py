@@ -18,3 +18,6 @@ shutil.copy2('file_stat_data.py', 'journaldev')
 
 print('DESTINATION FILE:')
 file_metadata('journaldev/file_stat_data.py')
+
+# Remove directory journaldev recurcively
+shutil.rmtree("journaldev")

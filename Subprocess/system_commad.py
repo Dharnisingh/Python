@@ -6,12 +6,14 @@
 # stdout = file_ob ==> top redirect command output to file
 # input = sub_obj.stdout ==> Taking output of once command as input to other
 import subprocess
-sub_obj = subprocess.run('ls -l dirs', shell=True, capture_output=True, text=True)
+sub_obj = subprocess.run('ls -l', shell=True, capture_output=True, text=True)
 
-print(sub_obj.stdout)
-print(sub_obj.args)
-print(sub_obj.returncode)
-print(sub_obj.stderr)
+print("Sub Process stdout: ", sub_obj.stdout)
+print("Sub Process args: ",sub_obj.args)
+# If command fails return code will not be zero
+print("Subprocess Return code: ",sub_obj.returncode)
+# if command fails error will be printed
+print("Subprocess stderror: ",sub_obj.stderr)
 print(dir(sub_obj))
 
 # Redirect output to a file

@@ -8,3 +8,6 @@ dest = "/home/dharni/Python/Shutil/dest1/"
 
 shutil.copytree(src,dest)
 print(os.listdir(dest))
+
+#Remove dest1
+shutil.rmtree(dest)
